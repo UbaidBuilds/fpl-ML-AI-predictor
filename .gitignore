@@ -1,0 +1,59 @@
+# ===========================
+# AI tooling — never commit
+# ===========================
+.claude/
+
+# ===========================
+# ML Service
+# ===========================
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/**/__pycache__/
+ml-service/models/*.pkl
+ml-service/data/raw/
+ml-service/data/processed/
+ml-service/*.egg-info/
+ml-service/.pytest_cache/
+
+# ===========================
+# Frontend (Next.js)
+# ===========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/coverage/
+
+# ===========================
+# Backend (Laravel)
+# ===========================
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/public/build/
+backend/public/hot/
+backend/public/storage/
+backend/storage/*.key
+backend/storage/pail/
+backend/storage/logs/
+backend/bootstrap/cache/*.php
+backend/.phpunit.result.cache
+backend/.phpunit.cache/
+
+# ===========================
+# OS / Editor
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
