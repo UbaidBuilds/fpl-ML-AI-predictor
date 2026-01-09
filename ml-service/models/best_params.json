@@ -1,0 +1,94 @@
+{
+  "gkp": {
+    "rows": 8275,
+    "train": 6620,
+    "test": 1655,
+    "rmse": 1.731,
+    "mae": 0.794,
+    "r2": 0.39,
+    "baseline_rmse": 2.144,
+    "q10_q90_coverage": 0.905,
+    "avg_interval": 1.97,
+    "best_params": {
+      "n_estimators": 483,
+      "max_depth": 4,
+      "learning_rate": 0.0055,
+      "subsample": 0.93,
+      "colsample_bytree": 0.9277,
+      "min_child_weight": 4,
+      "reg_alpha": 0.5866,
+      "reg_lambda": 3.9829,
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "def": {
+    "rows": 25521,
+    "train": 20416,
+    "test": 5105,
+    "rmse": 1.925,
+    "mae": 1.057,
+    "r2": 0.246,
+    "baseline_rmse": 2.519,
+    "q10_q90_coverage": 0.908,
+    "avg_interval": 2.73,
+    "best_params": {
+      "n_estimators": 211,
+      "max_depth": 4,
+      "learning_rate": 0.0171,
+      "subsample": 0.7928,
+      "colsample_bytree": 0.5462,
+      "min_child_weight": 8,
+      "reg_alpha": 0.19,
+      "reg_lambda": 1.5768,
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "mid": {
+    "rows": 33604,
+    "train": 26883,
+    "test": 6721,
+    "rmse": 1.933,
+    "mae": 0.996,
+    "r2": 0.343,
+    "baseline_rmse": 2.636,
+    "q10_q90_coverage": 0.878,
+    "avg_interval": 2.78,
+    "best_params": {
+      "n_estimators": 586,
+      "max_depth": 4,
+      "learning_rate": 0.0067,
+      "subsample": 0.7648,
+      "colsample_bytree": 0.8796,
+      "min_child_weight": 6,
+      "reg_alpha": 0.7398,
+      "reg_lambda": 2.3933,
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "fwd": {
+    "rows": 9107,
+    "train": 7285,
+    "test": 1822,
+    "rmse": 2.254,
+    "mae": 1.177,
+    "r2": 0.309,
+    "baseline_rmse": 2.875,
+    "q10_q90_coverage": 0.852,
+    "avg_interval": 2.99,
+    "best_params": {
+      "n_estimators": 530,
+      "max_depth": 4,
+      "learning_rate": 0.0065,
+      "subsample": 0.7211,
+      "colsample_bytree": 0.7051,
+      "min_child_weight": 6,
+      "reg_alpha": 1.3078,
+      "reg_lambda": 2.8678,
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  }
+}
